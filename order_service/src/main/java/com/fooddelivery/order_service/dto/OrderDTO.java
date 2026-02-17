@@ -16,6 +16,8 @@ public class OrderDTO {
     private Long id;
     private Long restaurantId;
     private Long customerId;
+    private Long deliveryId;
+    private OrderStatus orderStatus;
     private List<com.fooddelivery.order_service.dto.OrderItemDTO> orderItems;
     private BigDecimal totalPrice;
     private OrderStatus status;
